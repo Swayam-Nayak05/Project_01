@@ -1,0 +1,95 @@
+.navbar{
+    background-color:black;
+    border-radius: 30px;
+    opacity: 0.8;
+}
+.navbar ul{
+    overflow: auto;
+}
+.navbar li{
+    float: left;
+    list-style-type: none;
+    padding: 10px 10px;
+    margin: 15px 20px;    
+}
+
+.navbar li a{
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    color: white;
+    background-color: black;
+}
+.navbar li a:hover{
+    color: black;
+    background-color: white;
+}
+.search{
+    float: right;
+    color: white;
+    padding: 15px 75px;
+}
+.navbar input{
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 6px 30px;
+    width: 130px;
+}
+.wrap{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 20% 15%;
+    display: flex;
+}
+footer{
+    background-color: rgb(141, 152, 163);
+    text-align:center;
+    padding: 10px;
+    opacity:0.6px;
+}
+.body{
+    background-image: url(https://pbs.twimg.com/media/Ei15ljcVgAAB_o4?format=jpg&name=4096x4096);
+    height: 130vh;
+    width: 100%; 
+    background-size: cover;
+    background-repeat: none;
+}
+.wrap h1{
+    letter-spacing: 2px;
+    font-style: italic;
+    font-weight: bold;
+    font-display:inherit;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.wrap p{
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
+    color: azure;
+    margin-left: 28px;
+}
+form{
+    border: 3px solid black;
+    border-radius: 10px;
+    width: 300px;
+    height: 212px;
+
+}
+#1{
+    font-weight: bold;
+    border-style:solid;
+    border-radius:10px;
+}
+#4{
+    font-weight: bold;
+}
+#3:hover{
+    color:white;
+    background-color:black;
+}
+.sign{
+    text-decoration: none;
+    color:black;
+}
